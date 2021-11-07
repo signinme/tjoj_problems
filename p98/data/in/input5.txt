@@ -1,0 +1,201 @@
+200
+Append Spade 4
+Append Diamond 10
+Append Heart 4
+Append Heart 7
+Append Diamond 9
+Pop
+Pop
+Pop
+Append Diamond 5
+Append Heart J
+Append Spade 3
+Pop
+Revert
+Pop
+Append Spade 9
+Append Spade 5
+Pop
+Pop
+Revert
+Append Club 7
+Revert
+Append Diamond K
+Extract Diamond
+Append Club J
+Pop
+Pop
+Extract Diamond
+Append Heart 3
+Pop
+Append Club K
+Pop
+Extract Diamond
+Pop
+Extract Club
+Append Spade J
+Pop
+Pop
+Pop
+Append Spade Q
+Pop
+Append Heart J
+Append Heart 4
+Revert
+Revert
+Append Spade 9
+Append Club 8
+Append Heart 6
+Extract Spade
+Append Diamond 9
+Append Spade 8
+Append Diamond 6
+Extract Spade
+Append Spade J
+Pop
+Pop
+Pop
+Pop
+Extract Spade
+Append Club Q
+Pop
+Append Spade K
+Pop
+Append Diamond Q
+Append Club 10
+Append Spade 2
+Pop
+Extract Club
+Pop
+Pop
+Append Heart 7
+Extract Club
+Revert
+Append Diamond 8
+Append Heart 5
+Extract Club
+Append Heart J
+Append Spade 9
+Pop
+Revert
+Extract Spade
+Append Diamond 4
+Append Spade 2
+Revert
+Revert
+Revert
+Pop
+Revert
+Pop
+Extract Heart
+Pop
+Pop
+Pop
+Pop
+Pop
+Append Spade 8
+Revert
+Pop
+Append Spade 8
+Append Club 10
+Pop
+Pop
+Pop
+Append Diamond 10
+Append Spade A
+Pop
+Append Club J
+Append Club A
+Pop
+Append Spade 9
+Append Heart K
+Append Heart J
+Extract Club
+Pop
+Append Diamond 6
+Append Heart Q
+Append Heart K
+Extract Spade
+Revert
+Pop
+Extract Heart
+Extract Spade
+Pop
+Append Heart 6
+Append Club 9
+Append Diamond 3
+Append Spade Q
+Pop
+Append Heart 2
+Append Heart 2
+Append Spade 2
+Revert
+Pop
+Append Diamond 10
+Append Spade 5
+Append Spade 2
+Revert
+Append Heart 6
+Append Diamond 3
+Revert
+Append Heart 8
+Append Spade 2
+Pop
+Pop
+Append Diamond A
+Append Spade K
+Pop
+Extract Spade
+Revert
+Append Diamond 10
+Pop
+Extract Spade
+Extract Heart
+Append Spade K
+Revert
+Append Diamond J
+Append Club 10
+Extract Diamond
+Extract Spade
+Append Diamond 2
+Append Heart 5
+Pop
+Append Heart Q
+Extract Heart
+Append Heart 6
+Append Club 9
+Append Spade J
+Append Spade 9
+Append Diamond A
+Append Spade 2
+Revert
+Append Club Q
+Append Heart 7
+Append Diamond 8
+Append Spade 8
+Append Spade 5
+Append Spade J
+Append Diamond 9
+Append Spade 10
+Extract Club
+Pop
+Pop
+Append Heart 2
+Extract Spade
+Extract Diamond
+Append Spade A
+Append Club 2
+Revert
+Append Spade A
+Append Heart 10
+Append Heart 4
+Append Club 8
+Append Diamond Q
+Append Club 10
+Append Diamond 9
+Pop
+Extract Spade
+Append Spade 6
+Append Diamond 4
+Revert
+Extract Diamond

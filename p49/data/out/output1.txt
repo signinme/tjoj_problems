@@ -1,0 +1,3 @@
+qBLZdobyWh
+succ is NULL
+prev is W0

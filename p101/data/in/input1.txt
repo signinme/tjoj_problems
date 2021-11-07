@@ -1,0 +1,1099 @@
+100
+enqueue -555775020
+enqueue -555776388
+dequeue
+dequeue
+dequeue
+dequeue
+dequeue
+dequeue
+max
+dequeue
+dequeue
+dequeue
+dequeue
+dequeue
+max
+dequeue
+enqueue -555774384
+dequeue
+enqueue -555766739
+enqueue -555774899
+dequeue
+dequeue
+dequeue
+enqueue -555768819
+dequeue
+enqueue -555770195
+dequeue
+max
+enqueue -555768493
+dequeue
+enqueue -555769218
+max
+enqueue -555768041
+dequeue
+dequeue
+dequeue
+dequeue
+dequeue
+dequeue
+max
+dequeue
+dequeue
+dequeue
+enqueue -555773682
+dequeue
+dequeue
+dequeue
+dequeue
+dequeue
+enqueue -555775340
+dequeue
+dequeue
+enqueue -555774022
+dequeue
+enqueue -555773562
+enqueue -555772422
+enqueue -555771649
+enqueue -555767126
+max
+enqueue -555769687
+max
+enqueue -555768380
+enqueue -555772188
+enqueue -555767702
+dequeue
+enqueue -555771887
+dequeue
+enqueue -555773172
+enqueue -555771947
+enqueue -555775011
+enqueue -555767594
+enqueue -555766609
+enqueue -555768943
+enqueue -555771489
+enqueue -555769878
+enqueue -555774857
+enqueue -555769917
+enqueue -555767044
+enqueue -555770244
+enqueue -555773433
+enqueue -555776053
+enqueue -555768554
+enqueue -555772664
+enqueue -555768948
+enqueue -555776140
+enqueue -555768086
+enqueue -555772249
+enqueue -555771180
+enqueue -555769538
+enqueue -555774093
+enqueue -555774311
+enqueue -555766870
+max
+enqueue -555776146
+enqueue -555768281
+enqueue -555768135
+enqueue -555772477
+enqueue -555767676
+enqueue -555768159
+enqueue -555773209
+enqueue -555772000
+max
+max
+enqueue -555775870
+enqueue -555766703
+enqueue -555772133
+dequeue
+dequeue
+enqueue -555767983
+enqueue -555775982
+dequeue
+enqueue -555771810
+dequeue
+enqueue -555770263
+enqueue -555775735
+enqueue -555770795
+enqueue -555772285
+enqueue -555770936
+enqueue -555773647
+enqueue -555767633
+enqueue -555771729
+enqueue -555767991
+enqueue -555771740
+enqueue -555774224
+enqueue -555769586
+enqueue -555766686
+enqueue -555766634
+enqueue -555773477
+max
+dequeue
+enqueue -555769120
+dequeue
+enqueue -555771001
+enqueue -555767096
+enqueue -555769802
+enqueue -555773199
+max
+max
+enqueue -555771510
+enqueue -555766993
+max
+dequeue
+enqueue -555775014
+enqueue -555770236
+enqueue -555768735
+max
+enqueue -555772718
+enqueue -555768024
+enqueue -555768806
+max
+enqueue -555775312
+enqueue -555776274
+enqueue -555767591
+enqueue -555769685
+enqueue -555774103
+enqueue -555766936
+enqueue -555768630
+enqueue -555767926
+dequeue
+enqueue -555768289
+enqueue -555770965
+enqueue -555775279
+dequeue
+enqueue -555770780
+enqueue -555774878
+enqueue -555773374
+enqueue -555775782
+enqueue -555767362
+enqueue -555771963
+dequeue
+enqueue -555768409
+enqueue -555772102
+enqueue -555773377
+enqueue -555770905
+dequeue
+enqueue -555767219
+enqueue -555768001
+enqueue -555770926
+enqueue -555774335
+enqueue -555771536
+enqueue -555767915
+enqueue -555770459
+enqueue -555768765
+enqueue -555776138
+max
+enqueue -555771881
+enqueue -555772770
+enqueue -555768710
+enqueue -555766897
+enqueue -555772497
+enqueue -555766694
+max
+dequeue
+enqueue -555767167
+enqueue -555769175
+dequeue
+enqueue -555769299
+dequeue
+enqueue -555772736
+enqueue -555773403
+dequeue
+enqueue -555768528
+dequeue
+dequeue
+enqueue -555776401
+enqueue -555767713
+max
+enqueue -555767553
+dequeue
+enqueue -555769105
+max
+dequeue
+dequeue
+max
+enqueue -555774825
+enqueue -555770490
+dequeue
+enqueue -555771692
+enqueue -555769197
+dequeue
+enqueue -555781890
+dequeue
+enqueue -555778788
+max
+dequeue
+dequeue
+max
+enqueue -555783073
+enqueue -555779919
+dequeue
+enqueue -555782984
+dequeue
+dequeue
+max
+dequeue
+max
+dequeue
+enqueue -555782172
+max
+enqueue -555779067
+max
+enqueue -555777994
+enqueue -555778155
+dequeue
+max
+enqueue -555777197
+max
+dequeue
+enqueue -555779916
+dequeue
+max
+enqueue -555780084
+max
+dequeue
+max
+enqueue -555780118
+max
+dequeue
+enqueue -555783855
+max
+enqueue -555785766
+dequeue
+enqueue -555779474
+dequeue
+dequeue
+enqueue -555781712
+max
+enqueue -555781627
+max
+enqueue -555778401
+dequeue
+dequeue
+max
+dequeue
+max
+dequeue
+max
+enqueue -555781913
+max
+enqueue -555784486
+enqueue -555782952
+max
+enqueue -555779003
+enqueue -555783634
+max
+dequeue
+enqueue -555778575
+max
+dequeue
+enqueue -555784898
+dequeue
+dequeue
+dequeue
+max
+dequeue
+max
+dequeue
+max
+enqueue -555780176
+enqueue -555780125
+max
+dequeue
+max
+enqueue -555784470
+enqueue -555779272
+max
+enqueue -555782715
+max
+enqueue -555785065
+max
+dequeue
+max
+enqueue -555783419
+max
+dequeue
+max
+enqueue -555781916
+max
+dequeue
+enqueue -555786216
+dequeue
+enqueue -555777778
+enqueue -555783678
+dequeue
+max
+enqueue -555784768
+dequeue
+max
+max
+enqueue -555785143
+max
+dequeue
+dequeue
+max
+enqueue -555782698
+enqueue -555778034
+dequeue
+dequeue
+max
+dequeue
+enqueue -555781961
+enqueue -555784238
+max
+enqueue -555784546
+dequeue
+enqueue -555778599
+dequeue
+max
+dequeue
+max
+enqueue -555782403
+dequeue
+max
+enqueue -555784923
+dequeue
+max
+enqueue -555785654
+max
+enqueue -555777510
+max
+dequeue
+enqueue -555782784
+dequeue
+enqueue -555782302
+max
+enqueue -555778484
+max
+enqueue -555777007
+dequeue
+enqueue -555777343
+dequeue
+enqueue -555785866
+max
+max
+enqueue -555786122
+max
+dequeue
+dequeue
+max
+enqueue -555777592
+max
+enqueue -555785272
+dequeue
+max
+enqueue -555780212
+enqueue -555777645
+dequeue
+enqueue -555777363
+max
+dequeue
+enqueue -555786248
+dequeue
+max
+enqueue -555786110
+dequeue
+dequeue
+max
+enqueue -555781162
+enqueue -555784842
+max
+dequeue
+dequeue
+max
+enqueue -555781267
+enqueue -555781009
+max
+enqueue -555781563
+max
+dequeue
+max
+enqueue -555777546
+max
+dequeue
+enqueue -555780830
+max
+dequeue
+max
+enqueue -555782880
+dequeue
+max
+enqueue -555786164
+max
+dequeue
+max
+enqueue -555785564
+dequeue
+enqueue -555781355
+dequeue
+max
+enqueue -555784219
+max
+dequeue
+max
+enqueue -555782370
+enqueue -555783876
+dequeue
+enqueue -555784994
+enqueue -555783460
+dequeue
+enqueue -555776803
+max
+dequeue
+dequeue
+enqueue -555785569
+enqueue -555781349
+dequeue
+enqueue -555783148
+dequeue
+max
+enqueue -555784549
+max
+dequeue
+enqueue -555785592
+max
+dequeue
+dequeue
+enqueue -555777379
+enqueue -555781335
+dequeue
+enqueue -555777161
+dequeue
+dequeue
+max
+dequeue
+max
+enqueue -555776873
+enqueue -555781429
+enqueue -555776504
+dequeue
+dequeue
+max
+enqueue -555784449
+max
+enqueue -555785550
+enqueue -555783326
+max
+dequeue
+enqueue -555784029
+dequeue
+enqueue -555779421
+max
+dequeue
+max
+enqueue -555784760
+dequeue
+max
+enqueue -555781975
+max
+dequeue
+enqueue -555779594
+dequeue
+max
+enqueue -555779892
+dequeue
+max
+enqueue -555784405
+dequeue
+enqueue -555782537
+max
+dequeue
+max
+dequeue
+max
+enqueue -555777048
+enqueue -555785956
+dequeue
+max
+enqueue -555779145
+max
+dequeue
+max
+enqueue -555778680
+dequeue
+dequeue
+max
+enqueue -555783586
+enqueue -555778839
+max
+dequeue
+max
+enqueue -555781076
+dequeue
+enqueue -555783801
+max
+dequeue
+enqueue -555781004
+dequeue
+max
+enqueue -555784732
+max
+max
+dequeue
+max
+dequeue
+enqueue -555780257
+enqueue -555777614
+max
+dequeue
+max
+enqueue -555777144
+dequeue
+enqueue -555783166
+dequeue
+max
+dequeue
+max
+enqueue -555779193
+enqueue -555779458
+max
+dequeue
+enqueue -555777610
+dequeue
+enqueue -555776755
+max
+dequeue
+max
+enqueue -555780975
+max
+dequeue
+max
+dequeue
+enqueue -555779190
+enqueue -555783003
+max
+dequeue
+enqueue -555783780
+max
+max
+enqueue -555785768
+max
+dequeue
+enqueue -555776997
+dequeue
+max
+enqueue -555777197
+enqueue -555783361
+max
+dequeue
+dequeue
+max
+enqueue -555781998
+enqueue -555782133
+dequeue
+enqueue -555782307
+max
+dequeue
+max
+dequeue
+max
+enqueue -555783130
+enqueue -555784313
+max
+dequeue
+enqueue -555785159
+dequeue
+max
+max
+enqueue -555783401
+dequeue
+enqueue -555778204
+max
+dequeue
+max
+enqueue -555778573
+dequeue
+dequeue
+enqueue -555782384
+max
+dequeue
+max
+dequeue
+max
+dequeue
+max
+enqueue -555780529
+max
+dequeue
+max
+enqueue -555783424
+dequeue
+dequeue
+enqueue -555780019
+enqueue -555778007
+max
+enqueue -555783406
+dequeue
+enqueue -555784276
+enqueue -555782293
+enqueue -555786154
+dequeue
+enqueue -555779903
+max
+dequeue
+enqueue -555779494
+max
+dequeue
+enqueue -555780862
+max
+dequeue
+max
+enqueue -555780014
+enqueue -555777449
+dequeue
+enqueue -555776771
+max
+dequeue
+max
+enqueue -555785620
+max
+dequeue
+dequeue
+max
+max
+enqueue -555784283
+enqueue -555776745
+dequeue
+max
+enqueue -555777838
+dequeue
+max
+enqueue -555785501
+max
+dequeue
+enqueue -555783537
+dequeue
+max
+enqueue -555778274
+dequeue
+max
+dequeue
+enqueue -555779102
+max
+enqueue -555786235
+dequeue
+max
+enqueue -555780733
+max
+dequeue
+max
+enqueue -555778422
+dequeue
+enqueue -555779909
+dequeue
+enqueue -555785467
+dequeue
+enqueue -555779634
+dequeue
+enqueue -555780614
+max
+dequeue
+dequeue
+max
+enqueue -555780743
+max
+enqueue -555777838
+max
+dequeue
+max
+enqueue -555783150
+enqueue -555783315
+max
+dequeue
+enqueue -555784037
+dequeue
+enqueue -555783534
+dequeue
+enqueue -555778445
+dequeue
+enqueue -555784286
+enqueue -555776959
+max
+dequeue
+enqueue -555785156
+max
+enqueue -555786339
+dequeue
+max
+enqueue -555785557
+dequeue
+enqueue -555786265
+dequeue
+enqueue -555783306
+max
+dequeue
+max
+enqueue -555784125
+max
+dequeue
+enqueue -555784356
+max
+dequeue
+max
+enqueue -555785753
+max
+dequeue
+dequeue
+dequeue
+max
+enqueue -555782842
+max
+enqueue -555785142
+enqueue -555785518
+max
+enqueue -555785667
+dequeue
+max
+enqueue -555783608
+max
+dequeue
+max
+dequeue
+dequeue
+max
+dequeue
+max
+enqueue -555785851
+max
+dequeue
+max
+dequeue
+dequeue
+max
+enqueue -555779741
+enqueue -555780384
+dequeue
+enqueue -555786103
+max
+dequeue
+max
+enqueue -555778137
+max
+enqueue -555776669
+max
+enqueue -555779092
+enqueue -555782673
+max
+enqueue -555776535
+max
+dequeue
+max
+enqueue -555782696
+max
+dequeue
+enqueue -555778225
+dequeue
+max
+dequeue
+dequeue
+max
+enqueue -555783159
+max
+enqueue -555779185
+max
+enqueue -555783263
+max
+dequeue
+enqueue -555777856
+max
+enqueue -555776972
+dequeue
+enqueue -555778074
+dequeue
+dequeue
+enqueue -555782187
+enqueue -555786113
+dequeue
+max
+enqueue -555783626
+dequeue
+max
+enqueue -555785261
+max
+dequeue
+max
+enqueue -555785908
+max
+dequeue
+max
+enqueue -555784563
+max
+dequeue
+enqueue -555786132
+max
+dequeue
+enqueue -555777165
+dequeue
+max
+dequeue
+max
+enqueue -555779676
+max
+enqueue -555777239
+max
+dequeue
+dequeue
+max
+enqueue -555785237
+enqueue -555776753
+dequeue
+max
+enqueue -555780040
+dequeue
+dequeue
+enqueue -555780085
+dequeue
+enqueue -555780020
+max
+enqueue -555778383
+max
+enqueue -555782606
+max
+enqueue -555780010
+dequeue
+max
+enqueue -555782397
+max
+enqueue -555783526
+dequeue
+enqueue -555780038
+enqueue -555783887
+enqueue -555779680
+dequeue
+max
+enqueue -555782903
+dequeue
+max
+enqueue -555784529
+max
+enqueue -555785578
+dequeue
+max
+enqueue -555779095
+max
+dequeue
+max
+enqueue -555779637
+dequeue
+max
+enqueue -555778790
+dequeue
+dequeue
+max
+enqueue -555780615
+enqueue -555779720
+dequeue
+max
+enqueue -555778903
+dequeue
+enqueue -555784506
+max
+dequeue
+max
+enqueue -555781657
+dequeue
+max
+dequeue
+max
+enqueue -555783607
+max
+enqueue -555782751
+dequeue
+max
+enqueue -555783645
+max
+dequeue
+dequeue
+max
+enqueue -555785537
+dequeue
+max
+enqueue -555779427
+max
+enqueue -555782105
+dequeue
+max
+enqueue -555780934
+dequeue
+max
+enqueue -555780471
+dequeue
+enqueue -555781661
+max
+dequeue
+dequeue
+enqueue -555780495
+enqueue -555784850
+max
+enqueue -555776961
+max
+dequeue
+max
+enqueue -555783809
+max
+dequeue
+enqueue -555785648
+dequeue
+dequeue
+max
+enqueue -555777930
+max
+enqueue -555778982
+max
+dequeue
+max
+enqueue -555778706
+max
+dequeue
+max
+dequeue
+max
+enqueue -555785439
+max
+dequeue
+max
+enqueue -555778646
+enqueue -555781017
+dequeue
+max
+enqueue -555780863
+dequeue
+enqueue -555776796
+max
+dequeue
+max
+enqueue -555777349
+max
+dequeue
+dequeue
+enqueue -555785437
+enqueue -555780361
+enqueue -555780540
+enqueue -555776575
+dequeue
+enqueue -555783670
+dequeue
+max
+dequeue
+max
+enqueue -555780087
+enqueue -555780848
+max
+dequeue
+max
+enqueue -555781923
+dequeue
+enqueue -555786143
+max
+dequeue
+max
+dequeue
+dequeue
+enqueue -555780751
+max
+enqueue -555778525
+enqueue -555783262
+dequeue
+max
+enqueue -555782912
+enqueue -555777109
+max
+dequeue
+enqueue -555781889
+dequeue
+max
+enqueue -555781067
+dequeue
+enqueue -555782288
+dequeue
+enqueue -555781768
+max
+dequeue
+max
+enqueue -555782811
+max
+enqueue -555783819
+max
+dequeue
+dequeue
+enqueue -555782904
+dequeue
+enqueue -555779009
+max
+enqueue -555777177
+max
+dequeue
+dequeue
+enqueue -555783940
+max
+enqueue -555776578
+dequeue
+enqueue -555777379
+dequeue
+max
+dequeue
+enqueue -555778801
+max
+enqueue -555778336
+max
+enqueue -555777710
+dequeue
+enqueue -555782225
+dequeue
+max
+enqueue -555785812
+max
+dequeue
+max
+enqueue -555779966
+max
+dequeue
+enqueue -555784857
+dequeue
+max
+enqueue -555781330
+dequeue
+enqueue -555779486
+enqueue -555780281
+dequeue
+max
+dequeue
+enqueue -555780672
+max
+max
+dequeue
+enqueue -555785311
+max
+enqueue -555786251
+max
+dequeue
+max
+enqueue -555784877
+dequeue
+enqueue -555782205
+dequeue
+max
+enqueue -555777237
+dequeue
+enqueue -555784081
+dequeue
+max
+enqueue -555784595
+dequeue
+max
+dequeue
+max
+enqueue -555779909
+max
+enqueue -555782519
+dequeue
+enqueue -555783273
+dequeue
+max
+enqueue -555784184
+max
+dequeue
+enqueue -555786122
+dequeue
+quit

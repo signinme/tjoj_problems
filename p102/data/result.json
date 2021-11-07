@@ -1,0 +1,42 @@
+{
+    "type": "list-dict",
+    "check": "mixed",
+    "precision": {
+        "payment_amount": {
+            "precision": 1e-4,
+            "type": "float"
+        },
+        "mob1": {
+            "precision": 1e-4,
+            "type": "float"
+        },
+        "mob2": {
+            "precision": 1e-4,
+            "type": "float"
+        },
+        "c_mouth":{
+            "precision":1e1,
+            "type": "str"
+        }
+    },
+    "data": [
+    {
+        "payment_amount": 517600.00,
+        "mob1": 0.0309,
+        "mob2": 0.0425,
+        "c_month": "Apr-18"
+    },
+    {
+        "payment_amount": 3160600.00,
+        "mob1": 0.0321,
+        "mob2": null,
+        "c_month": "May-18"
+    },
+    {
+        "payment_amount": 3436900.00,
+        "mob1": null,
+        "mob2": null,
+        "c_month": "Jun-18"
+    }
+    ]
+}

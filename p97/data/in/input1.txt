@@ -1,0 +1,60 @@
+19 39
+bnE______
+ CHs______
+  dth______
+   EEa______
+    fft______
+     Gyb______
+     hSE______
+    IRx______
+   jKy______
+    Kjh______
+    lMA______
+    MZF______
+   npW______
+    Otg______
+     phF______
+     QLc______
+      rin______
+     SuX______
+      tMw______
+lMA______ is a sibling of phF______.
+IRx______ is an ancestor of IRx______.
+EEa______ is a sibling of CHs______.
+tMw______ is a child of SuX______.
+IRx______ is a sibling of lMA______.
+Gyb______ is the parent of EEa______.
+npW______ is a sibling of npW______.
+hSE______ is a child of fft______.
+fft______ is a descendant of bnE______.
+CHs______ is a child of SuX______.
+npW______ is a sibling of Gyb______.
+bnE______ is a descendant of lMA______.
+CHs______ is a child of MZF______.
+dth______ is a child of phF______.
+lMA______ is a child of Kjh______.
+fft______ is an ancestor of IRx______.
+lMA______ is a descendant of bnE______.
+QLc______ is a descendant of QLc______.
+jKy______ is a child of dth______.
+lMA______ is a child of jKy______.
+CHs______ is an ancestor of bnE______.
+SuX______ is a child of lMA______.
+tMw______ is a child of Kjh______.
+SuX______ is a sibling of npW______.
+phF______ is an ancestor of EEa______.
+Gyb______ is a sibling of hSE______.
+dth______ is an ancestor of IRx______.
+QLc______ is a sibling of phF______.
+rin______ is a descendant of rin______.
+EEa______ is a descendant of Kjh______.
+Gyb______ is the parent of Gyb______.
+phF______ is the parent of phF______.
+phF______ is a descendant of npW______.
+phF______ is an ancestor of IRx______.
+SuX______ is a descendant of IRx______.
+CHs______ is an ancestor of CHs______.
+MZF______ is a descendant of bnE______.
+hSE______ is a sibling of hSE______.
+QLc______ is an ancestor of rin______.
+0 0

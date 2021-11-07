@@ -1,0 +1,16 @@
+Diamond 4
+Diamond 9
+Spade 8
+Diamond 3
+Club A
+Diamond 8
+Club K
+Heart Q
+Club A
+Club 6
+Diamond 5
+Heart 2
+Club A
+Heart 5
+Spade 2
+Heart 2

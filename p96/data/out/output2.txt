@@ -1,0 +1,5 @@
+Expression 1: F
+Expression 2: V
+Expression 3: V
+Expression 4: F
+Expression 5: V
