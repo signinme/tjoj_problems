@@ -182,7 +182,7 @@ int main()
              */
             int s = rand() % (n - 1);
             int e = rand() % (n - s - 1) + s + 1;
-            pic->AddLine(chart[s], chart[e], rand() % 100 + 1);\
+            pic->AddLine(chart[s], chart[e], rand() % 100 + 1);
         }
         if( i == 7 ) {
             int e = -1;

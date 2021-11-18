@@ -63,7 +63,7 @@ public:
         for( auto &i : list ) {
             for( std::vector<int>::iterator it = i.next.begin(); it != i.next.end(); it ++ )
             {
-                if( *it > i.id)
+                if( *it >= i.id )
                     out << i.id + 1 << ' ' << *it + 1 << std::endl;
             }
         }
@@ -109,16 +109,14 @@ int main() {
         for( int j = 0; j < n; j ++ ) {
             int s, e;
             s = j;
-            e = rand() % n;
-            // fin << s + 1 << ' ' << e + 1 << std::endl;
+            while( (e = rand() % n) == s );
             pic.InsertLine(s, e);
             pic.InsertLine(e, s);
         }
         for( int j = n; j < m; j ++ ) {
             int s, e;
             s = rand() % n;
-            e = rand() % n;
-            // fin << s + 1 << ' ' << e + 1 << std::endl;
+            while( (e = rand() % n) == s );
             pic.InsertLine(s, e);
             pic.InsertLine(e, s);
         }
