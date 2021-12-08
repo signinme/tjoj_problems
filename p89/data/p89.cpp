@@ -8,6 +8,7 @@
 #include <vector>
 #include <set>
 #include <queue>
+#include <cmath>
 
 class PICTURE {
 public:
@@ -50,7 +51,7 @@ public:
      */
     void Print(std::ostream &out) {
         for( const auto &node : list ) {
-            out << node.id + 1 << ':' << ' ' << std::fixed << std::setprecision(2) << float(node.count * 100.0 / list.size() + 0.004) << '%' << std::endl;
+            out << node.id + 1 << ':' << ' ' << std::fixed << std::setprecision(2) << round(node.count * 10000.0 / list.size()) / 100.0 << '%' << std::endl;
         }
     }
     PICTURE(const int n) { for( int i = 0; i < n; i ++ ) list.push_back(NODE(i)); }
