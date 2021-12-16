@@ -1,0 +1,6 @@
+0 : N/A : -1		1 : N/A : -1		
+FULL
+EMPTY
+-1
+FULL
+0 : N/A : -1		1 : N/A : -1		

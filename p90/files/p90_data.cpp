@@ -4,9 +4,7 @@
  * @author  张校
  * @date    2021-12-11
  */
-/*******************************************************************************************************
- * 这个程序看起来是有问题的，但我还没有找到问题在那里，发现问题的同学请与我联系1751400@tongji.edu.cn，感激不尽！
- * *****************************************************************************************************/
+
 #include <iostream>
 #include <fstream>
 #include <map>
@@ -17,8 +15,8 @@ using namespace std;
  */
 class SORTTREE {
 public:
-    static const int MAX_ELEM = 1000000;
-    static const int RANDOM_GAP = 1000; // 尽量保证 MAX_ELEM / RANDOM_GAP > n
+    static const int MAX_ELEM = 100000;
+    static const int RANDOM_GAP = 10; // 尽量保证 MAX_ELEM / RANDOM_GAP > n
     struct NODE {
         NODE *left_, *right_, *parent_;
         int elem_, count_, height_;
@@ -26,7 +24,7 @@ public:
             left_ = NULL;
             right_ = NULL;
             count_ = 1;
-            height_ = 0;
+            height_ = 1;
         }
         ~NODE() {
             if( left_ )
@@ -45,16 +43,6 @@ public:
          */
         void UpdateHeight() {
             height_ = std::max((left_ ? left_->height_ : 0), (right_ ? right_->height_ : 0)) + 1;
-        }
-        /**
-         * @brief 中序打印树结构
-         */
-        void PrintTree(ostream &out) {
-            if( left_ )
-                left_->PrintTree(out);
-            out << elem_ << ' ';
-            if( right_ )
-                right_->PrintTree(out);
         }
         /**
          * @name    bool Find(int elem, NODE *&last, NODE *&thiss, NODE *&next, bool &found)
@@ -165,7 +153,8 @@ public:
                 l->left_ = p->left_;
                 p->left_->parent_ = l;
                 l->right_ = p->right_;
-                p->right_->parent_ = l;
+                if( p->right_ )
+                    p->right_->parent_ = l;
 
                 ChangeParent(p, l);
                 KeepBalance(t);
@@ -213,14 +202,6 @@ public:
             return l->elem_;
         return -1;
     }
-    /**
-     * @brief 中序遍历打印二叉树
-     */
-    void PrintTree(ostream &out) {
-        if( root_ )
-            root_->PrintTree(out);
-        out << std::endl;
-    }
 private:
     /**
      * @brief 保持树的平衡
@@ -229,31 +210,29 @@ private:
     void KeepBalance(NODE *p) {
         while( p ) {
             p->UpdateHeight();
-            if( -2 == p->Balance() || p->Balance() == 2 )
-                break;
-            p = p->parent_;
-        }
+            if( -2 >= p->Balance() || p->Balance() >= 2 ) {
+                // 旋转
+                if( p->Balance() < 0 ) {
+                    if( p->left_->Balance() <= 0 ) {
+                        RotateRight(p);
+                    }
+                    else {
+                        RotateLeft(p->left_);
+                        RotateRight(p);
+                    }
+                }
+                else {
+                    if( p->right_->Balance() >= 0 ) {
+                        RotateLeft(p);
+                    }
+                    else {
+                        RotateRight(p->right_);
+                        RotateLeft(p);
 
-        // 旋转
-        if( p ) {
-            if( p->Balance() == -2 ) {
-                if( p->left_->Balance() == -1 ) {
-                    RotateRight(p);
-                }
-                else {
-                    RotateLeft(p->left_);
-                    RotateRight(p);
+                    }
                 }
             }
-            else {
-                if( p->right_->Balance() == 1 ) {
-                    RotateLeft(p);
-                }
-                else {
-                    RotateRight(p->right_);
-                    RotateLeft(p);
-                }
-            }
+            p = p->parent_;
         }
     }
     /**
@@ -299,7 +278,7 @@ private:
             else 
                 p->parent_->right_ = t;
         }
-        else 
+        else
             root_ = t;
     }
     NODE *root_;
@@ -307,9 +286,9 @@ private:
 
 int RandomElem(std::map<int, int> &M) {
     if( ! M.size() )
-        return 0;
+        return rand() % SORTTREE::MAX_ELEM + 1;
     std::map<int, int>::iterator it = M.begin();
-    std::advance(it, rand() % M.size() - 1);
+    std::advance(it, rand() % M.size());
     return (*it).first;
 }
 
@@ -340,9 +319,8 @@ int main()
 
         int last_insert;
         for( int i = 0; i < n; i ++) {
-            // 
             int ope, elem = 0, last = 0;
-
+            // 接下来生成随机操作
             if( index % 2 == 0 ) { // 一般的数据会考察树的性能，即输入数据是有序的
                 if( i == 0 ) {
                     ope = 1;
@@ -543,11 +521,11 @@ int main()
                     }
                 }
             }
-
             fin << ope;
             if( ope != 4 )
                 fin << ' ' << elem;
             fin << std::endl;
+
             switch( ope ) {
             case 1:
                 T.Insert(elem);
@@ -584,7 +562,6 @@ int main()
             }
         }
         delete &T;
-
         fin.close();
         fout.close();
     }

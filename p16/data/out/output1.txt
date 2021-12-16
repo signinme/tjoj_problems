@@ -1,0 +1,10 @@
+0 : N/A : 2		1 : N/A : 7		2 : Jan : 3
+3 : Feb : 4		4 : Mar : 5		5 : Apr : 6
+6 : May : -1		7 : N/A : 8		8 : N/A : -1
+Jan Jun Feb Mar Apr May 
+Jan
+3
+Jun Feb Mar Apr May Oct 
+0 : N/A : 7		1 : N/A : 8		2 : Oct : -1
+3 : Feb : 4		4 : Mar : 5		5 : Apr : 6
+6 : May : 2		7 : Jun : 3		8 : N/A : -1

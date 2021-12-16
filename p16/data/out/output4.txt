@@ -1,0 +1,10 @@
+0 : N/A : 2		1 : N/A : -1		2 : Jun : 3
+3 : Feb : 4		4 : Mar : 5		5 : App : 6
+6 : May : -1		
+FULL
+Feb
+-1
+Jun Mar App May Jun 
+0 : N/A : 2		1 : N/A : -1		2 : Jun : 4
+3 : Jun : -1		4 : Mar : 5		5 : App : 6
+6 : May : 3		

@@ -19,7 +19,7 @@ public:
             left_ = NULL;
             right_ = NULL;
             count_ = 1;
-            height_ = 0;
+            height_ = 1;
         }
         ~NODE() {
             if( left_ )
@@ -38,16 +38,6 @@ public:
          */
         void UpdateHeight() {
             height_ = std::max((left_ ? left_->height_ : 0), (right_ ? right_->height_ : 0)) + 1;
-        }
-        /**
-         * @brief 中序打印树结构
-         */
-        void PrintTree(ostream &out) {
-            if( left_ )
-                left_->PrintTree(out);
-            out << elem_ << ' ';
-            if( right_ )
-                right_->PrintTree(out);
         }
         /**
          * @name    bool Find(int elem, NODE *&last, NODE *&thiss, NODE *&next, bool &found)
@@ -158,8 +148,8 @@ public:
                 l->left_ = p->left_;
                 p->left_->parent_ = l;
                 l->right_ = p->right_;
-                p->right_->parent_ = l;
-
+                if( p->right_ )
+                    p->right_->parent_ = l;
                 ChangeParent(p, l);
                 KeepBalance(t);
             }
@@ -206,14 +196,6 @@ public:
             return l->elem_;
         return -1;
     }
-    /**
-     * @brief 中序遍历打印二叉树
-     */
-    void PrintTree(ostream &out) {
-        if( root_ )
-            root_->PrintTree(out);
-        out << std::endl;
-    }
 private:
     /**
      * @brief 保持树的平衡
@@ -222,31 +204,29 @@ private:
     void KeepBalance(NODE *p) {
         while( p ) {
             p->UpdateHeight();
-            if( -2 == p->Balance() || p->Balance() == 2 )
-                break;
-            p = p->parent_;
-        }
+            if( -2 >= p->Balance() || p->Balance() >= 2 ) {
+                // 旋转
+                if( p->Balance() < 0 ) {
+                    if( p->left_->Balance() <= 0 ) {
+                        RotateRight(p);
+                    }
+                    else {
+                        RotateLeft(p->left_);
+                        RotateRight(p);
+                    }
+                }
+                else {
+                    if( p->right_->Balance() >= 0 ) {
+                        RotateLeft(p);
+                    }
+                    else {
+                        RotateRight(p->right_);
+                        RotateLeft(p);
 
-        // 旋转
-        if( p ) {
-            if( p->Balance() == -2 ) {
-                if( p->left_->Balance() == -1 ) {
-                    RotateRight(p);
-                }
-                else {
-                    RotateLeft(p->left_);
-                    RotateRight(p);
+                    }
                 }
             }
-            else {
-                if( p->right_->Balance() == 1 ) {
-                    RotateLeft(p);
-                }
-                else {
-                    RotateRight(p->right_);
-                    RotateLeft(p);
-                }
-            }
+            p = p->parent_;
         }
     }
     /**
@@ -287,13 +267,12 @@ private:
         if( t )
             t->parent_ = p->parent_;
         if( p->parent_ ) {
-            
             if( p == p->parent_->left_ ) 
                 p->parent_->left_ = t;
             else 
                 p->parent_->right_ = t;
         }
-        else 
+        else
             root_ = t;
     }
     NODE *root_;
