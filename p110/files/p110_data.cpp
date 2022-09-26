@@ -24,7 +24,7 @@ public:
             list_.push_back(rand() % max_num + 1);
         std::sort(list_.begin(), list_.end());
     }
-    ~List() = default;
+    ~List() {}
     /**
      * @brief   清空数组
      */

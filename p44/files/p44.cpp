@@ -10,10 +10,10 @@
 #include <fstream>
 using namespace std;
 
-class Soluction
+class Solution
 {
 public:
-    Soluction() {}
+    Solution() {}
 private:
     bool dfs(bool *map, const int row, const int col, int loc)
     {
@@ -47,7 +47,7 @@ private:
         return bo;
     }
 public:
-    int soluction(bool *map, int row, int col)
+    int solution(bool *map, int row, int col)
     {
         int ans = 0;
         for( int i = 0; i < row * col; i ++ )
@@ -101,7 +101,7 @@ int main()
         }
         fin.close();
 
-        int ans = s.soluction(map, row, col);
+        int ans = s.solution(map, row, col);
         delete[] map;
         
         sprintf(file_out, "output%d.txt", i);

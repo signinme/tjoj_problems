@@ -32,7 +32,7 @@ public:
             }
         }
         NODE(int id_) : id(id_) { min_distance = INT_MAX; }
-        ~NODE() = default;
+        ~NODE() {}
     };
     PICTURE(int size) {
         for( int i = 0; i < size; i ++ )

@@ -14,7 +14,7 @@ class HASH {
 public:
     static const int MULT_FACTOR = 37;
     HASH(int size) : size_(CalculateNextPrimeNumber(size)), list_(size_) {}
-    ~HASH() = default;
+    ~HASH() {}
 
     /**
      * @brief   插入一个元素

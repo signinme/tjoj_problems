@@ -13,7 +13,7 @@
 class List {
 public:
     List() = default;
-    ~List() = default;
+    ~List() {}
     /**
      * @brief   清空数组
      */

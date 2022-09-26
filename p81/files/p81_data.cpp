@@ -146,7 +146,7 @@ private:
         char name            = list[list[i].r].name;
         list[list[i].r].name = list[list[i].l].name;
         list[list[i].l].name = name;
-        return true;
+        return list[list[i].l].l != -1 || list[list[i].l].r != -1 || list[list[i].r].l != -1 || list[list[i].r].r != -1;
     }
 };
 const char * Tree::CharList = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";

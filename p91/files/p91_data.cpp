@@ -16,7 +16,7 @@ public:
     static const int MULT_FACTOR = 37;
     static const int MAX_NAME_LENGTH = 100;
     HASH(int size) : size_(CalculateNextPrimeNumber(size)), list_(size_) {}
-    ~HASH() = default;
+    ~HASH() {}
 
     /**
      * @brief   插入一个元素

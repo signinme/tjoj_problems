@@ -16,7 +16,7 @@ public:
         int id, count;
         std::vector<int> next;
         NODE(int i) : id(i) { count = 0; }
-        ~NODE() = default;
+        ~NODE() {}
     };
     /**
      * @brief 插入一条边
@@ -55,7 +55,7 @@ public:
         }
     }
     PICTURE(const int n) { for( int i = 0; i < n; i ++ ) list.push_back(NODE(i)); }
-    ~PICTURE() = default;
+    ~PICTURE() {}
 private:
     std::vector<NODE> list;
 };
