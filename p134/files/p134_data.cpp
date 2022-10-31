@@ -43,7 +43,7 @@ private:
     SearchSet ss;
 
 public:
-    Group(int n_, int max_w) : n(n_), last(n), edges_matrix(n, std::vector<int>(n)), ss(n_) {
+    Group(int n_, int max_w) : n(n_), last(n_ - 1), edges_matrix(n, std::vector<int>(n)), ss(n_) {
         for( int i = 0; i < n; i ++ ) {
             edges_matrix[i][i] = 0;
             for( int j = 0; j < i; j ++ ) {
@@ -77,7 +77,7 @@ public:
         std::sort(edges.begin(), edges.end(), comp);
         
         int ans = 0, pointer = 0;
-        while( last && pointer < edges.size() ) {
+        while( last > 0 && pointer < edges.size() ) {
             while( pointer < edges.size() && ss[edges[pointer].x] == ss[edges[pointer].y] ) {
                 pointer ++;
             }

@@ -31,7 +31,7 @@ private:
     private:
         int findRoot(int x) {
             if( list[x] == x )
-                return x;
+                return x; 
             return list[x] = findRoot(list[x]);
         }
     };
@@ -52,11 +52,11 @@ public:
         last --;
         ss[y] = ss[x];
     }
-
+    static bool comp(const Edge &e1, const Edge &e2) {
+        return e1.w < e2.w;
+    }
     int calculateMinDistance() {
-        auto comp = [](const Edge &e1, const Edge &e2) {
-            return e1.w < e2.w;
-        };
+        
         std::sort(edges.begin(), edges.end(), comp);
         
         int ans = 0, pointer = 0;
