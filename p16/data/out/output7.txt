@@ -1,8 +1,0 @@
-0 : N/A : 2		1 : N/A : -1		2 : Jan : 3
-3 : Feb : 4		4 : Mar : -1		
-FULL
--1
--1
-FULL
-0 : N/A : 2		1 : N/A : -1		2 : Jan : 3
-3 : Feb : 4		4 : Mar : -1		

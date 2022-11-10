@@ -1,6 +1,0 @@
-9 5
-Jan Feb Mar Apr May
-6 Jun
-10
-Jan
-Oct

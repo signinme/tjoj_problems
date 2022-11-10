@@ -1,6 +1,0 @@
-15 12
-Jan Feb Mar App May Jun July Aug Sep Oct Nov Dec
-4 Apr
-5
-Apr
-Jan
