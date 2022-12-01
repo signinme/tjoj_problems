@@ -11,11 +11,11 @@
 
 // Definition for a binary tree node.
 struct TreeNode {
-    int data;
+    int data;           // 节点元素
 
-    TreeNode *lchild;
+    TreeNode *lchild;   // 左孩子节点指针
 
-    TreeNode *rchild;
+    TreeNode *rchild;   // 有孩子指针
 
     TreeNode(int x = 0, TreeNode *left = nullptr, TreeNode *right = nullptr) : data(x), lchild(left), rchild(right) {}
     ~TreeNode() { // 自动析构
@@ -60,13 +60,17 @@ public:
     }
 private:
     /**
-     * @brief   二叉树指令构造
+     * @brief           二叉树指令构造
+     * @param   order   构造指令列表
+     * @param   index   当前节点序号
+     * @return          子树根节点指针
      */
     TreeNode *buildTreeDFS(const std::vector<int> &order, int &index) {
         if( index >= order.size() || order[index] == -1 ) {
             index ++;
             return nullptr;
         }
+        // 构造以当前节点为根节点的子树并返回
         return new TreeNode(order[index ++], buildTreeDFS(order, index), buildTreeDFS(order, index));
     }
     /**
