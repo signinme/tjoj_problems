@@ -18,6 +18,8 @@ struct TreeNode {
     TreeNode *rchild;   // 有孩子指针
 
     TreeNode(int x = 0, TreeNode *left = nullptr, TreeNode *right = nullptr) : data(x), lchild(left), rchild(right) {}
+    TreeNode(TreeNode *right, TreeNode *left, int x) : data(x), lchild(left), rchild(right) {}
+    
     ~TreeNode() { // 自动析构
         if( lchild != nullptr )
             delete lchild;
@@ -70,8 +72,10 @@ private:
             index ++;
             return nullptr;
         }
-        // 构造以当前节点为根节点的子树并返回
-        return new TreeNode(order[index ++], buildTreeDFS(order, index), buildTreeDFS(order, index));
+        int data = order[index++];
+        TreeNode *left = buildTreeDFS(order, index);
+        TreeNode *right = buildTreeDFS(order, index);
+        return new TreeNode(data, left, right);
     }
     /**
      * @brief   二叉树随机构造
@@ -80,11 +84,10 @@ private:
         if( last_node == 0 )
             return nullptr;
         int left_num_nodes = rand() % (last_node);
-        return new TreeNode(
-            name_list[index ++],
-            buildTreeRandomDFS(name_list, index, left_num_nodes),
-            buildTreeRandomDFS(name_list, index, last_node - left_num_nodes - 1)
-        );
+        int data = name_list[index++];
+        TreeNode *left = buildTreeRandomDFS(name_list, index, left_num_nodes);
+        TreeNode *right = buildTreeRandomDFS(name_list, index, last_node - left_num_nodes - 1);
+        return new TreeNode(data, left, right);
     }
     /**
      * @brief   根据遍历顺序order（0、1、2对应先序、中序、后序）获得二叉树遍历列表或构造指令列表（get_null=1时获取构造指令）
@@ -126,7 +129,7 @@ int main() {
     srand((unsigned)time(NULL));
     int x, num_nodes = 0, num_null = 0;
     std::vector<int> order;
-    while( cin >> x ) {
+    while( std::cin >> x ) {
         order.push_back(x);
         if( x == -1 ) {
             num_null ++;
